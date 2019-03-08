@@ -1,0 +1,64 @@
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\bin\Debug\netcoreapp2.1\BackOffice.deps.json
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\bin\Debug\netcoreapp2.1\BackOffice.runtimeconfig.json
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\bin\Debug\netcoreapp2.1\BackOffice.runtimeconfig.dev.json
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\bin\Debug\netcoreapp2.1\BackOffice.dll
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\bin\Debug\netcoreapp2.1\BackOffice.pdb
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\bin\Debug\netcoreapp2.1\BackOffice.Views.dll
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\bin\Debug\netcoreapp2.1\BackOffice.Views.pdb
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.csprojAssemblyReference.cache
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.csproj.CoreCompileInputs.cache
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.RazorAssemblyInfo.cache
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.RazorAssemblyInfo.cs
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.AssemblyInfoInputs.cache
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.AssemblyInfo.cs
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.TagHelpers.input.cache
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.TagHelpers.output.cache
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.RazorCoreGenerate.cache
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.RazorTargetAssemblyInfo.cache
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.RazorTargetAssemblyInfo.cs
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.Views.pdb
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.dll
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.pdb
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.csproj.CopyComplete
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\bin\Debug\netcoreapp2.1\BackOffice.deps.json
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\bin\Debug\netcoreapp2.1\BackOffice.runtimeconfig.json
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\bin\Debug\netcoreapp2.1\BackOffice.runtimeconfig.dev.json
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\bin\Debug\netcoreapp2.1\BackOffice.dll
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\bin\Debug\netcoreapp2.1\BackOffice.pdb
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\bin\Debug\netcoreapp2.1\BackOffice.Views.dll
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\bin\Debug\netcoreapp2.1\BackOffice.Views.pdb
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.csprojAssemblyReference.cache
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.csproj.CoreCompileInputs.cache
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.RazorAssemblyInfo.cache
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.RazorAssemblyInfo.cs
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.AssemblyInfoInputs.cache
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.AssemblyInfo.cs
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.TagHelpers.input.cache
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.TagHelpers.output.cache
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.RazorCoreGenerate.cache
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.RazorTargetAssemblyInfo.cache
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.RazorTargetAssemblyInfo.cs
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.Views.pdb
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.dll
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.pdb
+F:\Utilisateurs\Doryan Lopez\source\repos\DeltaFestivlDotNetCoreStarterKit\BackOffice\obj\Debug\netcoreapp2.1\BackOffice.csproj.CopyComplete
