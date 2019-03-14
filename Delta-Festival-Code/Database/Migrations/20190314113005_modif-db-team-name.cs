@@ -2,11 +2,14 @@
 
 namespace Database.Migrations
 {
-    public partial class testteam10Members : Migration
+    public partial class modifdbteamname : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-
+            migrationBuilder.AlterColumn<string>(
+            name: "Name",
+            table: "Teams",
+            maxLength: 50);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

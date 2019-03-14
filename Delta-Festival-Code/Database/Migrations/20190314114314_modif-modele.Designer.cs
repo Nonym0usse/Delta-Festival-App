@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Database.Migrations
 {
     [DbContext(typeof(EfContext))]
-    [Migration("20190308141159_init")]
-    partial class init
+    [Migration("20190314114314_modif-modele")]
+    partial class modifmodele
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -51,6 +51,42 @@ namespace Database.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Publication");
+                });
+
+            modelBuilder.Entity("Entities.Team", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("MembersCount");
+
+                    b.Property<string>("Name");
+
+                    b.Property<int?>("Score");
+
+                    b.Property<DateTime?>("WinDate");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Teams");
+                });
+
+            modelBuilder.Entity("Entities.TeamMembers", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("JoinDate");
+
+                    b.Property<int>("TeamId");
+
+                    b.Property<int>("UserId");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TeamMembers");
                 });
 
             modelBuilder.Entity("Entities.User", b =>

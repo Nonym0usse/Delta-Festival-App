@@ -12,7 +12,9 @@ namespace Database.Mapping
         public void Configure(EntityTypeBuilder<Team> builder)
         {
             builder.HasKey(p => p.Id);
-            builder.HasQueryFilter(b => EF.Property<int>(b, "MembersCount") <= 10);
+            builder.Property(p => p.Name).HasMaxLength(50);
+            builder.Property(p => p.WinDate).IsRequired(false);
+            builder.Property(p => p.Score).IsRequired(false);
         }
     }
 }

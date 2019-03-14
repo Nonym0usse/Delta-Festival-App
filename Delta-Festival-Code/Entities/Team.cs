@@ -14,6 +14,6 @@ namespace Entities
         public int MembersCount { get; set; }
 
         public DateTime ? WinDate { get; set; }
-        public int Score {get; set;}
+        public int ? Score {get; set;}
     }
 }

@@ -13,7 +13,9 @@ namespace Database
         {
 
         }
-        public virtual  DbSet<User> Users { get; set; }
+        public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Team> Teams { get; set; }
+        public virtual DbSet<TeamMembers> TeamMembers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

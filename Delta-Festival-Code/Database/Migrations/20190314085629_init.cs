@@ -21,6 +21,40 @@ namespace Database.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "TeamMembers",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    TeamId = table.Column<int>(nullable: false),
+                    UserId = table.Column<int>(nullable: false),
+                    JoinDate = table.Column<DateTime>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_TeamMembers", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Teams",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Name = table.Column<string>(nullable: true),
+                    MembersCount = table.Column<int>(nullable: false),
+                    WinDate = table.Column<DateTime>(nullable: true),
+                    Score = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Teams", x => x.Id);
+                });
+            migrationBuilder.Sql(
+                @"ALTER TABLE Teams ADD CHECK (MembersCount <= 10);"
+                );
+
+            migrationBuilder.CreateTable(
                 name: "UserRole",
                 columns: table => new
                 {
@@ -105,6 +139,12 @@ namespace Database.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Publication");
+
+            migrationBuilder.DropTable(
+                name: "TeamMembers");
+
+            migrationBuilder.DropTable(
+                name: "Teams");
 
             migrationBuilder.DropTable(
                 name: "Users");
