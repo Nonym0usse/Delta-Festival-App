@@ -97,7 +97,7 @@ namespace WebApi
             //TODO
             //sql connection
             //TO REMOVE
-            var connectionString = @"Server=(localdb)\mssqllocaldb;Database=EFDeltaFestival.AspNetCore2;Trusted_Connection=True;ConnectRetryCount=0";
+            var connectionString = @"Server=195.200.178.233;Database=Team_Blue;User ID=team_blue_devs;Password=7987adef+/eer798;Trusted_Connection=False;ConnectRetryCount=0";
             services.AddDbContext<EfContext>(options => options.UseSqlServer(connectionString));
               //  , x => x.MigrationsAssembly("Database")));
 

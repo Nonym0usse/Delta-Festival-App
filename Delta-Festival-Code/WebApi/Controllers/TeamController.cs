@@ -40,5 +40,16 @@ namespace WebApi.Controllers
 
             return teams;
         }
+
+        // POST /api/teams
+        [HttpPost]
+        public async Task<ActionResult<Team>> PostTodoItem(Team item)
+        {
+            _context.Teams.Add(item);
+            await _context.SaveChangesAsync();
+            // Content-type : application/json
+
+            return CreatedAtAction(nameof(GetItem), new { id = item.Id }, item);
+        }
     }
 }
