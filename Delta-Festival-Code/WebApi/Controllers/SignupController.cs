@@ -10,7 +10,6 @@ using System.Threading.Tasks;
 
 namespace WebApi.Controllers
 {
-    [Route("api/signup")]
     [ApiController]
     public class SignupController : ControllerBase
     {
@@ -21,12 +20,14 @@ namespace WebApi.Controllers
         {
             _context = context;
         }
+        // GET api/users - On retourne la liste de tous les utilisateurs
+        [HttpGet("api/users")]
         public async Task<ActionResult<IEnumerable<User>>> Get()
         {
             return await _context.Users.ToListAsync();
         }
-
-        
+        // GET /api/user/{id} - On retourne un user avec l'ID spécifique
+        [HttpGet("api/user/{id}")]
         public async Task<ActionResult<User>> GetUser(int id)
         {
             var users = await _context.Users.FindAsync(id);
@@ -39,8 +40,8 @@ namespace WebApi.Controllers
             return users;
         }
         
-        // POST api/signup - Seule méthode accessible, pour éviter les problèmes de sécurité
-        [HttpPost]
+        // POST api/signup - Inscription d'un nouvel utilisateur
+        [HttpPost("api/signup")]
         public async Task<ActionResult<User>> CreateUser(User item)
         {
             _context.Users.Add(item);
