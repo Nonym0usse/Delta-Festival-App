@@ -11,12 +11,12 @@ using System.Threading.Tasks;
 namespace WebApi.Controllers
 {
     [ApiController]
-    public class SignupController : ControllerBase
+    public class UserController : ControllerBase
     {
         
         private readonly EfContext _context;
 
-        public SignupController(EfContext context)
+        public UserController(EfContext context)
         {
             _context = context;
         }
@@ -41,14 +41,14 @@ namespace WebApi.Controllers
         }
         
         // POST api/signup - Inscription d'un nouvel utilisateur
-        [HttpPost("api/signup")]
-        public async Task<ActionResult<User>> CreateUser(User item)
-        {
-            _context.Users.Add(item);
-            await _context.SaveChangesAsync();
-            // Content-type : application/json
+        //[HttpPost("api/signup")]
+        //public async Task<ActionResult<User>> CreateUser(User item)
+        //{
+        //    _context.Users.Add(item);
+        //    await _context.SaveChangesAsync();
+        //    // Content-type : application/json
 
-            return CreatedAtAction(nameof(GetUser), new { id = item.Id }, item);
-        }
+        //    return CreatedAtAction(nameof(GetUser), new { id = item.Id }, item);
+        //}
     }
 }
