@@ -72,10 +72,14 @@ namespace WebApi.Controllers
                 {
                     mergeable.Add(index);
                 }
+                if(index.Id == id)
+                {
+                    mergeable.Remove(index);
+                }
             }
+            
 
             return mergeable;
         }
-
     }
 }
