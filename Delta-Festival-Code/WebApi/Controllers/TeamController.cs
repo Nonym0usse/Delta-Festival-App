@@ -77,9 +77,41 @@ namespace WebApi.Controllers
                     mergeable.Remove(index);
                 }
             }
-            
-
             return mergeable;
+        }
+        [HttpDelete("delete_team/{id}")]
+        public async Task<ActionResult<Team>> Delete(int id)
+        {
+            Team deleted = await _context.Teams.FindAsync(id);
+
+            if (deleted == null)
+            {
+                return NotFound();
+            }
+
+            _context.Teams.Remove(deleted);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+        [HttpPut("merge/{id_team1}/{id_team2}")]
+        public async Task<ActionResult<Team>> Merge(int id_team1, int id_team2)
+        {
+            Team team1 = await _context.Teams.FindAsync(id_team1);
+            Team team2 = await _context.Teams.FindAsync(id_team2);
+
+            Team merged_team = new Team();
+            merged_team.MembersCount = team1.MembersCount + team2.MembersCount;
+            merged_team.Name = team1.Name + " & " + team2.Name;
+            if(merged_team.MembersCount == 10)
+            {
+                merged_team.IsActive = false;
+            }
+            await NewTeam(merged_team);
+            await Delete(id_team1);
+            await Delete(id_team2);
+            return merged_team;
+            
         }
     }
 }

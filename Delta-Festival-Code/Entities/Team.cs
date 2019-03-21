@@ -15,5 +15,8 @@ namespace Entities
 
         public DateTime ? WinDate { get; set; }
         public int ? Score {get; set;}
+        public bool IsActive { get; set; } = true;
+
+        
     }
 }

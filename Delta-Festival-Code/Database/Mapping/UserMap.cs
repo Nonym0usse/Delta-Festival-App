@@ -10,6 +10,7 @@ namespace Database.Mapping
         {
             builder.HasKey(p => p.Id);
             builder.Property(p => p.TicketCode).HasMaxLength(50);
+            builder.Property(p => p.IsActive).HasDefaultValue(true);
         }
     }
 }
