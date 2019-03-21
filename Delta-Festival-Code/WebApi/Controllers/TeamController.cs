@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace WebApi.Controllers
 {
-    [Route("api/teams")]
+    [Route("api")]
     [ApiController]
     public class TeamController : ControllerBase
     {
@@ -21,14 +21,14 @@ namespace WebApi.Controllers
             _context = context;
         }
         // GET api/teams - Retourne la liste des équipes
-        [HttpGet]
+        [HttpGet("teams")]
         public async Task<ActionResult<IEnumerable<Team>>> Get()
         {
             return await _context.Teams.ToListAsync();
         }
 
         // GET api/teams/1 - Retourne une équipe selon un ID spécifique
-        [HttpGet("{id}")]
+        [HttpGet("teams/{id}")]
         public async Task<ActionResult<Team>> GetItem(int id)
         {
             var teams = await _context.Teams.FindAsync(id);
@@ -42,7 +42,7 @@ namespace WebApi.Controllers
         }
 
         // POST /api/teams - Nouvelle équipe
-        [HttpPost]
+        [HttpPost("teams")]
         public async Task<ActionResult<Team>> NewTeam(Team item)
         {
             _context.Teams.Add(item);
@@ -51,8 +51,7 @@ namespace WebApi.Controllers
 
             return CreatedAtAction(nameof(GetItem), new { id = item.Id }, item);
         }
-        [Route("api/merges")]
-        [HttpGet("{id}")]
+        [HttpGet("merges/{id}")]
         public async Task<ActionResult<IEnumerable<Team>>> Merges(int id)
         {
             var teams = await _context.Teams.FindAsync(id);
