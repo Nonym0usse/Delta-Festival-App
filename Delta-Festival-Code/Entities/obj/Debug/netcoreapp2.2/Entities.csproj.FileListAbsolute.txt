@@ -7,3 +7,12 @@ F:\Utilisateurs\Doryan Lopez\source\repos\Delta-Festival-App\Delta-Festival-Code
 F:\Utilisateurs\Doryan Lopez\source\repos\Delta-Festival-App\Delta-Festival-Code\Entities\obj\Debug\netcoreapp2.2\Entities.dll
 F:\Utilisateurs\Doryan Lopez\source\repos\Delta-Festival-App\Delta-Festival-Code\Entities\obj\Debug\netcoreapp2.2\Entities.pdb
 F:\Utilisateurs\Doryan Lopez\source\repos\Delta-Festival-App\Delta-Festival-Code\Entities\obj\Debug\netcoreapp2.2\Entities.csprojAssemblyReference.cache
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Entities\bin\Debug\netcoreapp2.2\Entities.deps.json
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Entities\bin\Debug\netcoreapp2.2\Entities.dll
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Entities\bin\Debug\netcoreapp2.2\Entities.pdb
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Entities\obj\Debug\netcoreapp2.2\Entities.csprojAssemblyReference.cache
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Entities\obj\Debug\netcoreapp2.2\Entities.csproj.CoreCompileInputs.cache
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Entities\obj\Debug\netcoreapp2.2\Entities.AssemblyInfoInputs.cache
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Entities\obj\Debug\netcoreapp2.2\Entities.AssemblyInfo.cs
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Entities\obj\Debug\netcoreapp2.2\Entities.dll
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Entities\obj\Debug\netcoreapp2.2\Entities.pdb

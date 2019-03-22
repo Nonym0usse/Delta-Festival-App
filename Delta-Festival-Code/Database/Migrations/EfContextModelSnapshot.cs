@@ -107,6 +107,12 @@ namespace Database.Migrations
 
                     b.Property<int>("UserRoleId");
 
+                    b.Property<string>("identifiant");
+
+                    b.Property<string>("password");
+
+                    b.Property<string>("pseudo");
+
                     b.HasKey("Id");
 
                     b.HasIndex("MoodId");

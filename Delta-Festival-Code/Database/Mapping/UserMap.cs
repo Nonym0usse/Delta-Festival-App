@@ -8,8 +8,10 @@ namespace Database.Mapping
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
+            builder.Property(p => p.identifiant).IsRequired();
             builder.HasKey(p => p.Id);
             builder.Property(p => p.TicketCode).HasMaxLength(50);
+            builder.HasAlternateKey(p => p.identifiant);
         }
     }
 }

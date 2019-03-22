@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Doryan Lopez\\.nuget\\packages\\": {},
+    "C:\\Users\\jean-seb\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Utilisateurs\\Doryan Lopez\\source\\repos\\Delta-Festival-App\\Delta-Festival-Code\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\jean-seb\\Desktop\\ALLAh\\Delta-Festival-App\\Delta-Festival-Code\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "F:\\Utilisateurs\\Doryan Lopez\\source\\repos\\Delta-Festival-App\\Delta-Festival-Code\\Entities\\Entities.csproj",
-      "packagesPath": "C:\\Users\\Doryan Lopez\\.nuget\\packages\\",
-      "outputPath": "F:\\Utilisateurs\\Doryan Lopez\\source\\repos\\Delta-Festival-App\\Delta-Festival-Code\\Entities\\obj\\",
+      "projectPath": "C:\\Users\\jean-seb\\Desktop\\ALLAh\\Delta-Festival-App\\Delta-Festival-Code\\Entities\\Entities.csproj",
+      "packagesPath": "C:\\Users\\jean-seb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jean-seb\\Desktop\\ALLAh\\Delta-Festival-App\\Delta-Festival-Code\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Doryan Lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jean-seb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

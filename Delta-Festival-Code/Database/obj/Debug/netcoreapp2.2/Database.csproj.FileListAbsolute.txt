@@ -12,3 +12,17 @@ F:\Utilisateurs\Doryan Lopez\source\repos\Delta-Festival-App\Delta-Festival-Code
 F:\Utilisateurs\Doryan Lopez\source\repos\Delta-Festival-App\Delta-Festival-Code\Database\obj\Debug\netcoreapp2.2\Database.csproj.CopyComplete
 F:\Utilisateurs\Doryan Lopez\source\repos\Delta-Festival-App\Delta-Festival-Code\Database\obj\Debug\netcoreapp2.2\Database.dll
 F:\Utilisateurs\Doryan Lopez\source\repos\Delta-Festival-App\Delta-Festival-Code\Database\obj\Debug\netcoreapp2.2\Database.pdb
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Database\bin\Debug\netcoreapp2.2\Database.deps.json
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Database\bin\Debug\netcoreapp2.2\Database.runtimeconfig.json
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Database\bin\Debug\netcoreapp2.2\Database.runtimeconfig.dev.json
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Database\bin\Debug\netcoreapp2.2\Database.dll
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Database\bin\Debug\netcoreapp2.2\Database.pdb
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Database\bin\Debug\netcoreapp2.2\Entities.dll
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Database\bin\Debug\netcoreapp2.2\Entities.pdb
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Database\obj\Debug\netcoreapp2.2\Database.csprojAssemblyReference.cache
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Database\obj\Debug\netcoreapp2.2\Database.csproj.CoreCompileInputs.cache
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Database\obj\Debug\netcoreapp2.2\Database.AssemblyInfoInputs.cache
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Database\obj\Debug\netcoreapp2.2\Database.AssemblyInfo.cs
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Database\obj\Debug\netcoreapp2.2\Database.csproj.CopyComplete
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Database\obj\Debug\netcoreapp2.2\Database.dll
+C:\Users\jean-seb\Desktop\ALLAh\Delta-Festival-App\Delta-Festival-Code\Database\obj\Debug\netcoreapp2.2\Database.pdb

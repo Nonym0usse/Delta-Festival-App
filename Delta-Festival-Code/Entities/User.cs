@@ -10,11 +10,11 @@ namespace Entities
     {
         public int Id { get; set; }
 
-        //  public string Email { get; set; }
+        public string password { get; set; }
 
-        //  public string Password { get; set; }
+        public string identifiant { get; set; }
 
-        //  public string Pseudo { get; set; }
+        public string pseudo { get; set; }
 
         public int UserRoleId { get; set; }
         public virtual UserRole Role { get; set; }
