@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebApi.Models;
 
 namespace WebApi.Controllers
 {
@@ -27,10 +28,10 @@ namespace WebApi.Controllers
             return await _context.Users.ToListAsync();
         }
         // GET /api/user/{id} - On retourne un user avec l'ID spécifique
-        [HttpGet("api/user/{pseudo}")]
+        [HttpGet("api/user/{identifiant}")]
         public async Task<ActionResult<User>> GetUser(string identifiant)
         {
-            var user = _context.Users.First(p => p.identifiant == identifiant);
+            User user = _context.Users.Single(x => x.identifiant == identifiant);
 
             if (user == null)
             {
@@ -47,28 +48,37 @@ namespace WebApi.Controllers
             _context.Users.Add(item);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetUser), new { id = item.Id, identifiant = item.identifiant  }, item);
+            return CreatedAtAction(nameof(GetUser), new { item.identifiant  }, item);
         }
 
         // PUT api/signup-infos - Création des infos utilisateur
-        [HttpPut("api/signup-infos")]
-        public async Task<ActionResult<User>> UpdateUser(User item)
+        [HttpPut("api/signup/{identifiant}")]
+        public async Task<ActionResult<Inscription>> UpdateUser(User item)
         {
-            var IdentifiantCheck = _context.Users.Find(item.Identifiant);
-
-            if (_context.Users.Find(IdentifiantCheck) == null) 
+            var user = _context.Users.SingleOrDefault(x => x.identifiant == item.identifiant);
+            //default
+            if (user == null) 
             {
                 return NotFound();
             }
 
-            Mood mood = item.Mood;
-            _context.Mood.Update(mood);
+            user.pseudo = item.pseudo;
+            user.password = item.password;
+            user.ActualMood = item.ActualMood;
             await _context.SaveChangesAsync();
 
-            User user = { item.Identifiant, item.Pseudo, item.Password };
-            _context.Users.Update(user);
-            await _context.SaveChangesAsync();
+            //List<string> userLight = new List<string>();
+            //userLight.Add(item.Id.ToString());
+            //userLight.Add(item.identifiant);
+            //userLight.Add(item.ActualMood.Id.ToString());
+            //userLight.Add(item.pseudo);
+            Inscription inscription = new Inscription();
+            inscription.Id = item.Id;
+            inscription.identifiant = item.identifiant;
+            inscription.MoodId = item.MoodId;
+            inscription.pseudo = item.pseudo;
 
+            return inscription;
         }
     }
 }
