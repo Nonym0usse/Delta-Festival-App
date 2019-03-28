@@ -1,0 +1,14 @@
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\Database\obj\Debug\netcoreapp2.1\Database.csprojAssemblyReference.cache
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\Database\obj\Debug\netcoreapp2.1\Database.csproj.CoreCompileInputs.cache
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\Database\obj\Debug\netcoreapp2.1\Database.AssemblyInfoInputs.cache
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\Database\obj\Debug\netcoreapp2.1\Database.AssemblyInfo.cs
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\Database\bin\Debug\netcoreapp2.1\Database.deps.json
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\Database\bin\Debug\netcoreapp2.1\Database.dll
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\Database\bin\Debug\netcoreapp2.1\Database.pdb
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\Database\bin\Debug\netcoreapp2.1\Entities.dll
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\Database\bin\Debug\netcoreapp2.1\Entities.pdb
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\Database\obj\Debug\netcoreapp2.1\Database.csproj.CopyComplete
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\Database\obj\Debug\netcoreapp2.1\Database.dll
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\Database\obj\Debug\netcoreapp2.1\Database.pdb
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\Database\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\lparigi-Ynov.DASSASDEV01\source\repos\deltaCore\Database\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.Relational.xml
