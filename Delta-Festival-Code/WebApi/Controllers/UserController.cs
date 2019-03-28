@@ -41,6 +41,30 @@ namespace WebApi.Controllers
             return user;
         }
 
+        [HttpGet("api/login")]
+        public async Task<ActionResult<Inscription>> Login(string identifiant, string password)
+        {
+            User user = _context.Users.SingleOrDefault(x => x.identifiant == identifiant);
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            if (user.password == password)
+            {
+                Inscription inscription = new Inscription();
+                inscription.pseudo = user.pseudo;
+                inscription.identifiant = user.identifiant;
+                inscription.Id = user.Id;
+                inscription.MoodId = user.MoodId;
+                return inscription;
+            }
+
+            return NoContent();
+        }
+
+
         // POST api/signup - Inscription d'un nouvel utilisateur
         [HttpPost("api/signup")]
         public async Task<ActionResult<User>> CreateUser(User item)
@@ -62,16 +86,16 @@ namespace WebApi.Controllers
                 return NotFound();
             }
 
+            if (user.password != item.password)
+            {
+                return NoContent();
+            }
+
             user.pseudo = item.pseudo;
             user.password = item.password;
             user.ActualMood = item.ActualMood;
             await _context.SaveChangesAsync();
-
-            //List<string> userLight = new List<string>();
-            //userLight.Add(item.Id.ToString());
-            //userLight.Add(item.identifiant);
-            //userLight.Add(item.ActualMood.Id.ToString());
-            //userLight.Add(item.pseudo);
+            
             Inscription inscription = new Inscription();
             inscription.Id = item.Id;
             inscription.identifiant = item.identifiant;
