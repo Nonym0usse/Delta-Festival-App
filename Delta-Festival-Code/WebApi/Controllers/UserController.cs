@@ -30,44 +30,44 @@ namespace WebApi.Controllers
         [HttpGet("api/user/{pseudo}")]
         public async Task<ActionResult<User>> GetUser(string identifiant)
         {
-            var users = _context.Users.First(p => p.identifiant == identifiant);
+            var user = _context.Users.First(p => p.identifiant == identifiant);
 
-            if (users == null)
+            if (user == null)
             {
                 return NotFound();
             }
 
-            return users;
+            return user;
         }
 
         // POST api/signup - Inscription d'un nouvel utilisateur
         [HttpPost("api/signup")]
         public async Task<ActionResult<User>> CreateUser(User item)
         {
-
-            if (item.password == null)
-                {
-                await UpdateUser(item);
-            }
             _context.Users.Add(item);
             await _context.SaveChangesAsync();
-            // Content-type : application/json
-            return CreatedAtAction(nameof(GetUser), new { id = item.Id, identifiant = item.identifiant }, item);
+
+            return CreatedAtAction(nameof(GetUser), new { id = item.Id, identifiant = item.identifiant  }, item);
         }
 
-        [HttpPut("api/{ id }")]
+        // PUT api/signup-infos - Création des infos utilisateur
+        [HttpPut("api/signup-infos")]
         public async Task<ActionResult<User>> UpdateUser(User item)
         {
-            var user = item as User;
-            _context.Users.Update(user);
-            await _context.SaveChangesAsync();
+            var IdentifiantCheck = _context.Users.Find(item.Identifiant);
 
-            if (user != null) {
-                return user;
-            } else
+            if (_context.Users.Find(IdentifiantCheck) == null) 
             {
                 return NotFound();
             }
+
+            Mood mood = item.Mood;
+            _context.Mood.Update(mood);
+            await _context.SaveChangesAsync();
+
+            User user = { item.Identifiant, item.Pseudo, item.Password };
+            _context.Users.Update(user);
+            await _context.SaveChangesAsync();
 
         }
     }
